@@ -1,5 +1,4 @@
-# esp32_telegram_notifier
-# ESP32 based telegram bot
+# OpenCV Projects using C++
 
 
 
