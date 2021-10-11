@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 11-10-2021 04:37:07.
+Build started 11-10-2021 04:50:09.
 Project "F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.28
+Time Elapsed 00:00:02.60
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 11-10-2021 04:37:10.
+Build started 11-10-2021 04:50:12.
 Project "F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.81
+Time Elapsed 00:00:02.40
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,56 +92,56 @@ The CXX compiler identification is MSVC, found in "F:/github/cpp_opencv_projects
 Determining if the C compiler works passed with the following output:
 Change Dir: F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_446d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_08e3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   testCCompiler.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_446d4.dir\Debug\\" /Fd"cmTC_446d4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\testCCompiler.c
-  cmTC_446d4.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_446d4.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08e3e.dir\Debug\\" /Fd"cmTC_08e3e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_08e3e.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_08e3e.exe
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d170e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bc532.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d170e.dir\Debug\\" /Fd"cmTC_d170e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
-  cmTC_d170e.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_d170e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc532.dir\Debug\\" /Fd"cmTC_bc532.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_bc532.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_bc532.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4e716.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c3292.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   testCXXCompiler.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e716.dir\Debug\\" /Fd"cmTC_4e716.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  cmTC_4e716.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_4e716.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c3292.dir\Debug\\" /Fd"cmTC_c3292.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_c3292.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_c3292.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_31ddc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c24da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_31ddc.dir\Debug\\" /Fd"cmTC_31ddc.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_31ddc.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_31ddc.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c24da.dir\Debug\\" /Fd"cmTC_c24da.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_c24da.vcxproj -> F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\CMakeTmp\Debug\cmTC_c24da.exe
 
 
 
