@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 
     Mat img = imread("lena.jpg", 1);
 
-    cout << img << endl;
+    // cout << img << endl;
 
     imshow("image", img);
     waitKey(0);
