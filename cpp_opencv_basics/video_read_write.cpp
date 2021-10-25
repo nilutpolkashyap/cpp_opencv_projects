@@ -20,8 +20,8 @@ int main(int argc, char **argv)
         // Obtain fps and frame count by get() method and print
         // 5 - CAP_PROP_FPS
         // 7 - CAP_PROP_FRAME_COUNT
-        fps = video_capture.get(5);
-        frame_counts = video_capture.get(7);
+        fps = static_cast<int>(video_capture.get(5));
+        frame_counts = static_cast<int>(video_capture.get(7));
 
         cout << "************************************" << endl;
         cout << "FPS : " << fps << endl;
