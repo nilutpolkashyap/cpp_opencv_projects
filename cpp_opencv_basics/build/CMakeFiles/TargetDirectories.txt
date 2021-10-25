@@ -1,4 +1,5 @@
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/image_read_display.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/image_read_write.dir
+F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/video_read_write.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/ALL_BUILD.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/ZERO_CHECK.dir
