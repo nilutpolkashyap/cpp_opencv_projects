@@ -24,4 +24,5 @@ ENDMACRO()
 # COMPILE CPP FILES USING THIS LINE
 ######## EDIT THE FILE NAMES ########
 add_example(image_read_display)
+add_example(image_read_write)
 #add_example(sampleCode2) and so on
