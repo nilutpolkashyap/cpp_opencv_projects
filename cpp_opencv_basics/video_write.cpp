@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     VideoCapture video_capture("video.mp4");
     // creating object of VideoCapture class to read video file
 
-    VideoWriter output("new_video.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size);
+    VideoWriter output("new_video.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), 20, frame_size);
 
     if(video_capture.isOpened())
     {
@@ -37,11 +37,9 @@ int main(int argc, char **argv)
         Mat frame;
         bool Success;
         
-
         // The video codec specifies how the video stream is compressed. It converts uncompressed video to a compressed format or vice versa.
         // AVI: cv2.VideoWriter_fourcc('M','J','P','G')
-        // MP4: cv2.VideoWriter_fourcc(*'XVID')
-
+        // MP4: cv2.VideoWriter_fourcc(*'XVID'
         
         // VideoWriter output("new_video.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'),frames_per_second, frame_size);
         // filename: pathname for the output video file
@@ -53,7 +51,7 @@ int main(int argc, char **argv)
     
         Success = video_capture.read(frame);
 
-        if(Success == true){
+        if(Success == false){
             cout << "Video file not avaialable" << endl;
         }
         else{
