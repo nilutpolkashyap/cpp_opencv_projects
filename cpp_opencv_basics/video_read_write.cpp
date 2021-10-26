@@ -9,6 +9,9 @@ int main(int argc, char **argv)
     // initialize a video capture object
     VideoCapture video_capture("video.mp4");
 
+    // VideoCapture video_capture;
+    // video_capture.open("video.mp4");
+
     // Print error message if the stream is invalid
     if(!video_capture.isOpened())
     {
@@ -61,7 +64,7 @@ int main(int argc, char **argv)
     }
 
     video_capture.release();        //Release the video capture object
-    destroyAllWindows();
+    // destroyAllWindows();
 
     return 0;
 }

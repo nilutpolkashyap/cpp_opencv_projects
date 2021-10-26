@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\detect_faces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6BC8CF61-D9BA-3641-A930-8184F515B05C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
