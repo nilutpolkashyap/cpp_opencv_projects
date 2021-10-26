@@ -46,11 +46,14 @@ int main(int argc, char  **argv)
 
     if(success == false)
     {
-        cout << "Failed to load cascade file " << endl;
+        cout << "**************************************" << endl;
+        cout << "***** Failed to load cascade file ****" << endl;
+        cout << "**************************************" << endl;
     }
     else 
     {
-        cout << "Face cascade loaded successfully" << endl;
+        cout << "**************************************" << endl;
+        cout << "** Face cascade loaded successfully **" << endl;
         cout << "**************************************" << endl;
     }
     
@@ -59,10 +62,14 @@ int main(int argc, char  **argv)
 
     if(source.isOpened())
     {
+        cout << "**************************************" << endl;
         cout << "Video file loaded successfully" << endl;
+        cout << "**************************************" << endl;
     }
     else{
-        cout << "Video file not loaded " << endl;
+        cout << "**************************************" << endl;
+        cout << "******** Video file not loaded *******" << endl;
+        cout << "**************************************" << endl;
     }
 
     Mat frame;
@@ -90,18 +97,18 @@ int main(int argc, char  **argv)
         tt_opencvHaar = ((double)cv::getTickCount() - t)/cv::getTickFrequency();
         fpsOpencvHaar = 1/tt_opencvHaar;
 
-        putText(frame, format("OpenCV HAAR ; FPS = %.2f",fpsOpencvHaar), Point(10, 50), FONT_HERSHEY_SIMPLEX, 1.3, Scalar(0, 0, 255), 4);    
+        // putText(frame, format("FPS = %.2f",fpsOpencvHaar), Point(10, 50), FONT_HERSHEY_SIMPLEX, 1.3, Scalar(0, 0, 255), 4);    
             
-        imshow("OpenCV - HAAR Face Detection", frame);
+        imshow("Haar Cascade Face Detection", frame);
 
         int k = waitKey(5);
-            if(k == 27)
+            if(k == 'q')
             {
                 destroyAllWindows();
                 break;
             }
     }
 
-
+    source.release();
     return 0;
 }
