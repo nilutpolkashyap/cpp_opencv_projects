@@ -24,4 +24,5 @@ ENDMACRO()
 # COMPILE CPP FILES USING THIS LINE
 ######## EDIT THE FILE NAMES ########
 add_example(detect_faces)
+add_example(eye_detection)
 #add_example(sampleCode2) and so on
