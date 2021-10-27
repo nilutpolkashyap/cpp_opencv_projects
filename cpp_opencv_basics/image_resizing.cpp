@@ -8,8 +8,7 @@ int main(int argc, char **argv)
 {
     Mat image = imread("lena.jpg");
 
-    int width, height; 
-    // down_height, down_height, up_height, up_width;
+    int width, height, down_height, down_width, up_height, up_width;
     Mat downsized_image, upsized_image;
 
     width = image.size[1];
