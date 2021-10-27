@@ -7,10 +7,25 @@ using namespace cv;
 int main(int argc, char **argv)
 {
     Mat image = imread("lena.jpg");
-    imshow("image", image);
-    waitKey(2000);
 
-    int width, height, 
+    int width, height; 
+    // down_height, down_height, up_height, up_width;
+    Mat downsized_image, upsized_image;
+
+    width = image.size[1];
+    height = image.size[0];
+
+    cout << "Original Width : " << width << " Height : " << height << endl;
+
+    imshow("image", image);
+    int key;
+    key = waitKey(7000);
+    if(key == 'q')
+    {
+        destroyAllWindows();
+    }
+
+
 
     return 0;
 }
