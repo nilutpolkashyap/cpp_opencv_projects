@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>F:\github\cpp_opencv_projects\haar_cascade_detection\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\Release\detect_faces.exe</FullPath>
+      <FullPath>F:\github\cpp_opencv_projects\haar_cascade_detection\build\Release\detect_faces.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

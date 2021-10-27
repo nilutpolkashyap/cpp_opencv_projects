@@ -1,6 +1,6 @@
-^F:\GITHUB\CPP_OPENCV_PROJECTS\HAAR_CASCADE_FACE_DETECTION\BUILD\CMAKEFILES\222217FB4770496A6C1B80BBE1106217\GENERATE.STAMP.RULE
+^F:\GITHUB\CPP_OPENCV_PROJECTS\HAAR_CASCADE_DETECTION\BUILD\CMAKEFILES\F6FE83618438EB1BDA3E18A5070BA1CE\GENERATE.STAMP.RULE
 setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_face_detection -BF:/github/cpp_opencv_projects/haar_cascade_face_detection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/OpenCV_CPP.sln
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_detection -BF:/github/cpp_opencv_projects/haar_cascade_detection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/github/cpp_opencv_projects/haar_cascade_detection/build/OpenCV_CPP.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\222217fb4770496a6c1b80bbe1106217\generate.stamp.rule">
+    <CustomBuild Include="F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\f6fe83618438eb1bda3e18a5070ba1ce\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D3D345CC-6D52-3C25-AFB2-BF1658A4337F}</UniqueIdentifier>
+      <UniqueIdentifier>{6FED5BC5-D515-387C-9023-AA176623D1BF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{54591032-D179-37A1-BE61-AB47D4D97AA9}</ProjectGuid>
+    <ProjectGuid>{E73DD1A3-CDF5-3013-9A9E-D27E9C5E73D8}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">detect_faces.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">detect_faces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">detect_faces.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">detect_faces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">detect_faces.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">detect_faces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">detect_faces.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">detect_faces</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -121,8 +121,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/Debug/detect_faces.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/Debug/detect_faces.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_detection/build/Debug/detect_faces.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_detection/build/Debug/detect_faces.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -166,8 +166,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/Release/detect_faces.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/Release/detect_faces.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_detection/build/Release/detect_faces.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_detection/build/Release/detect_faces.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -211,8 +211,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/MinSizeRel/detect_faces.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/MinSizeRel/detect_faces.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_detection/build/MinSizeRel/detect_faces.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_detection/build/MinSizeRel/detect_faces.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -255,8 +255,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/RelWithDebInfo/detect_faces.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/RelWithDebInfo/detect_faces.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/haar_cascade_detection/build/RelWithDebInfo/detect_faces.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/haar_cascade_detection/build/RelWithDebInfo/detect_faces.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,10 +264,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_face_detection/CMakeLists.txt</Message>
+    <CustomBuild Include="F:\github\cpp_opencv_projects\haar_cascade_detection\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_detection/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_face_detection -BF:/github/cpp_opencv_projects/haar_cascade_face_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_detection -BF:/github/cpp_opencv_projects/haar_cascade_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,12 +275,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_face_detection/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_detection/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_face_detection -BF:/github/cpp_opencv_projects/haar_cascade_face_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_detection -BF:/github/cpp_opencv_projects/haar_cascade_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,12 +288,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_face_detection/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_detection/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_face_detection -BF:/github/cpp_opencv_projects/haar_cascade_face_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_detection -BF:/github/cpp_opencv_projects/haar_cascade_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,12 +301,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_face_detection/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/github/cpp_opencv_projects/haar_cascade_detection/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_face_detection -BF:/github/cpp_opencv_projects/haar_cascade_face_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/generate.stamp
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/haar_cascade_detection -BF:/github/cpp_opencv_projects/haar_cascade_detection/build --check-stamp-file F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -314,17 +314,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\detect_faces.cpp" />
+    <ClCompile Include="F:\github\cpp_opencv_projects\haar_cascade_detection\detect_faces.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\ZERO_CHECK.vcxproj">
-      <Project>{21AA40B6-DFD1-3D66-9CE3-01F0982E2A5A}</Project>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\haar_cascade_detection\build\ZERO_CHECK.vcxproj">
+      <Project>{905898DC-5A56-386D-9C4F-035F3E927796}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

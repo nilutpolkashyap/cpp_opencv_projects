@@ -6,9 +6,11 @@ using namespace cv;
 
 int main(int argc, char **argv)
 {
-    Mat image;
+    Mat image = imread("lena.jpg");
+    imshow("image", image);
+    waitKey(2000);
 
-    image = imread("lenaa.jpg",1);
+    int width, height, 
 
-    
+    return 0;
 }

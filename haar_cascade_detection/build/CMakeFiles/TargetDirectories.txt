@@ -1,3 +1,4 @@
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/detect_faces.dir
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/ALL_BUILD.dir
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/ZERO_CHECK.dir
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/detect_faces.dir
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/eye_detection.dir
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/ALL_BUILD.dir
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/ZERO_CHECK.dir

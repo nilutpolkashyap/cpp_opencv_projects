@@ -9,8 +9,8 @@ The output was:
 Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 26-10-2021 01:23:39.
-Project "F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 27-10-2021 00:04:22.
+Project "F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -21,7 +21,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -29,20 +29,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:04.09
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -54,8 +54,8 @@ The output was:
 Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 26-10-2021 01:23:44.
-Project "F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 27-10-2021 00:04:28.
+Project "F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -66,7 +66,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -74,60 +74,74 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\3.17.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.80
+Time Elapsed 00:00:03.64
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/CMakeTmp
+Change Dir: F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c4f35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_88035.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   testCCompiler.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4f35.dir\Debug\\" /Fd"cmTC_c4f35.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\CMakeTmp\testCCompiler.c
-  cmTC_c4f35.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_c4f35.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88035.dir\Debug\\" /Fd"cmTC_88035.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_88035.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_88035.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4d106.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d106.dir\Debug\\" /Fd"cmTC_4d106.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+  cmTC_4d106.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d106.exe
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/CMakeTmp
+Change Dir: F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fd1e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_41925.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   testCXXCompiler.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fd1e8.dir\Debug\\" /Fd"cmTC_fd1e8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  cmTC_fd1e8.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_fd1e8.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41925.dir\Debug\\" /Fd"cmTC_41925.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_41925.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_41925.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/CMakeTmp
+Change Dir: F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1a5c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d7900.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29335 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1a5c8.dir\Debug\\" /Fd"cmTC_1a5c8.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_1a5c8.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_face_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_1a5c8.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d7900.dir\Debug\\" /Fd"cmTC_d7900.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "D:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_d7900.vcxproj -> F:\github\cpp_opencv_projects\haar_cascade_detection\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7900.exe
 
 
 

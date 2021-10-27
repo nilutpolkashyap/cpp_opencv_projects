@@ -24,8 +24,8 @@ E:/OpenCV/x64/vc16/lib/OpenCVConfig.cmake
 E:/OpenCV/x64/vc16/lib/OpenCVModules-debug.cmake
 E:/OpenCV/x64/vc16/lib/OpenCVModules-release.cmake
 E:/OpenCV/x64/vc16/lib/OpenCVModules.cmake
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/CMakeLists.txt
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CMakeCCompiler.cmake
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CMakeCXXCompiler.cmake
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CMakeRCCompiler.cmake
-F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/CMakeFiles/3.17.0/CMakeSystem.cmake
+F:/github/cpp_opencv_projects/haar_cascade_detection/CMakeLists.txt
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CMakeCCompiler.cmake
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CMakeCXXCompiler.cmake
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CMakeRCCompiler.cmake
+F:/github/cpp_opencv_projects/haar_cascade_detection/build/CMakeFiles/3.17.0/CMakeSystem.cmake

@@ -1,4 +1,4 @@
-# Install script for directory: F:/github/cpp_opencv_projects/haar_cascade_face_detection
+# Install script for directory: F:/github/cpp_opencv_projects/haar_cascade_detection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/github/cpp_opencv_projects/haar_cascade_face_detection/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/github/cpp_opencv_projects/haar_cascade_detection/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

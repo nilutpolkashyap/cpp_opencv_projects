@@ -40,7 +40,7 @@ void detectFaces(CascadeClassifier cascade, Mat &frame, int frameHeight, int fra
 int main(int argc, char  **argv)
 {
     // cout << "Checkpoint1" << endl;
-    cascadePath = "frontalEyes35x16.xml";
+    cascadePath = "haarcascade_eye.xml";
     bool success;
     success = faceCascade.load(cascadePath);
 
@@ -63,7 +63,7 @@ int main(int argc, char  **argv)
     if(source.isOpened())
     {
         cout << "**************************************" << endl;
-        cout << "Video file loaded successfully" << endl;
+        cout << "*** Video file loaded successfully ***" << endl;
         cout << "**************************************" << endl;
     }
     else{
