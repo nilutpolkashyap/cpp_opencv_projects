@@ -189,6 +189,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{71DAACBA-6F60-30E1-A5E8-28D50D5D06D8}</Project>
       <Name>image_resizing</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_rotation.vcxproj">
+      <Project>{E206D7F9-0448-39BD-9815-4FEADC603C04}</Project>
+      <Name>image_rotation</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\video_read_write.vcxproj">
       <Project>{2AF5A082-325F-3815-BB2F-BD50D4B0AED3}</Project>
       <Name>video_read_write</Name>

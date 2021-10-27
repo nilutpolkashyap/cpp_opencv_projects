@@ -30,4 +30,5 @@ add_example(video_write)
 add_example(image_resizing)
 add_example(image_resize_interpolation)
 add_example(image_cropping)
+add_example(image_rotation)
 #add_example(sampleCode2) and so on
