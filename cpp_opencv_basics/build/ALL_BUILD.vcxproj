@@ -177,6 +177,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{714122B1-6ED7-34FB-A39C-E561CEEABD0B}</Project>
       <Name>image_read_write</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_resize_interpolation.vcxproj">
+      <Project>{0FFE9933-3EFE-3123-B8FC-527A7E50C3FE}</Project>
+      <Name>image_resize_interpolation</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_resizing.vcxproj">
       <Project>{71DAACBA-6F60-30E1-A5E8-28D50D5D06D8}</Project>
       <Name>image_resizing</Name>

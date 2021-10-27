@@ -28,4 +28,5 @@ add_example(image_read_write)
 add_example(video_read_write)
 add_example(video_write)
 add_example(image_resizing)
+add_example(image_resize_interpolation)
 #add_example(sampleCode2) and so on
