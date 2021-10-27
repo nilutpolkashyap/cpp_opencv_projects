@@ -169,6 +169,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_cropping.vcxproj">
+      <Project>{E62CA929-A0C2-38F1-A5E0-3B4BE92A66E4}</Project>
+      <Name>image_cropping</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_read_display.vcxproj">
       <Project>{565AFF96-6983-370E-933B-324E99450135}</Project>
       <Name>image_read_display</Name>

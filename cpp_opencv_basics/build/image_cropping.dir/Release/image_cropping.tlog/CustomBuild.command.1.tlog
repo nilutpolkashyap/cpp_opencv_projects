@@ -1,0 +1,10 @@
+^F:\GITHUB\CPP_OPENCV_PROJECTS\CPP_OPENCV_BASICS\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/cpp_opencv_basics -BF:/github/cpp_opencv_projects/cpp_opencv_basics/build --check-stamp-file F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
