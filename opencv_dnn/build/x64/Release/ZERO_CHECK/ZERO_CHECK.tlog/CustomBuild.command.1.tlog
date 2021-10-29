@@ -1,0 +1,10 @@
+^F:\GITHUB\CPP_OPENCV_PROJECTS\OPENCV_DNN\BUILD\CMAKEFILES\32E0F4FA831BA6B5E8104B6DB6B289F9\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/opencv_dnn -BF:/github/cpp_opencv_projects/opencv_dnn/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/github/cpp_opencv_projects/opencv_dnn/build/OpenCV_CPP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,2 +1,5 @@
 .vscode/
 *.mp4
+*.caffemodel
+*.pb
+*.prototxt
