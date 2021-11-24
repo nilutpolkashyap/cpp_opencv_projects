@@ -65,14 +65,14 @@ int main(int argc, char **argv)
         outImage = alphaBlend(alpha, foreGround, backGroundImage, outImage);
     }
 
-    imwrite("alpha_blended_image.jpg", outImage);
+    // imwrite("alpha_blended_image.jpg", outImage);
     imshow("Alpha Blended Image", outImage/255);
     waitKey(10000);
-    // int key = waitKey(10000);
-    // if(key == 'q')
-    // {
-    //     destroyAllWindows();
-    // }
+    int key = waitKey(10000);
+    if(key == 'q')
+    {
+        destroyAllWindows();
+    }
 
     return 0;
 
