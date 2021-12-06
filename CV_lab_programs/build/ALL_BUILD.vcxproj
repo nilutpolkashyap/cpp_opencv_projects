@@ -170,6 +170,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\discrete_fourier_transform.vcxproj">
+      <Project>{6D69BDFF-431E-3445-AA94-1764E4B26629}</Project>
+      <Name>discrete_fourier_transform</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_grayscale_read_write.vcxproj">
       <Project>{52F3C433-37E8-36FC-A5A3-874BC11DFF82}</Project>
       <Name>image_grayscale_read_write</Name>

@@ -3,5 +3,6 @@ F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_rgb_split.d
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_histogram.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_smoothing.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_roi.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/discrete_fourier_transform.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ALL_BUILD.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ZERO_CHECK.dir

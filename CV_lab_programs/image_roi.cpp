@@ -12,7 +12,7 @@ int main (int argc, char **arv)
 
     Rect2d roi = selectROI(image);
 
-    Mat imCrop = im(roi);
+    Mat imCrop = image(roi);
 
     imshow("cropped_image", imCrop);
     waitKey(0);
