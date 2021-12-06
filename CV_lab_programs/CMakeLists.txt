@@ -29,4 +29,6 @@ add_example(image_histogram)
 add_example(image_smoothing)
 add_example(image_roi)
 add_example(discrete_fourier_transform)
+add_example(image_erosion_dilation)
+add_example(edge_detection)
 #add_example(sampleCode2) and so on

@@ -8,6 +8,12 @@
       <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\discrete_fourier_transform.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\edge_detection.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_erosion_dilation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_grayscale_read_write.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
