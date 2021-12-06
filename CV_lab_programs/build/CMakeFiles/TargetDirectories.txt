@@ -1,0 +1,4 @@
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_grayscale_read_write.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_rgb_split.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ALL_BUILD.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ZERO_CHECK.dir
