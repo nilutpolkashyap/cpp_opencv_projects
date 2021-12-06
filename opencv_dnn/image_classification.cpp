@@ -20,31 +20,21 @@ int main(int argc, char **argv)
         class_names.push_back(line);
     }  
     
-    // load the neural network model
-    auto model = readNet("DenseNet_121.prototxt", 
-                        "DenseNet_121.caffemodel", 
-                        "Caffe");
+    auto model = readNet("DenseNet_121.prototxt", "DenseNet_121.caffemodel", "Caffe");
     
-    // load the image from disk
-    Mat image = imread("dog.jpg");
-    // create blob from image
+    Mat image = imread("black_swan.jpg");
     Mat blob = blobFromImage(image, 0.01, Size(224, 224), Scalar(104, 117, 123));
 
-    // set the input blob for the neural network
     model.setInput(blob);
-    // forward pass the image blob through the model
-    Mat outputs = model.forward();
 
+    Mat outputs = model.forward();
     Point classIdPoint;
     double final_prob;
     minMaxLoc(outputs.reshape(1, 1), 0, &final_prob, 0, &classIdPoint);
     int label_id = classIdPoint.x;
 
-    // Print predicted class.
     string out_text = format("%s, %.3f", (class_names[label_id].c_str()), final_prob);
-    // put the class name text on top of the image
-    putText(image, out_text, Point(25, 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 255, 0),
-                2);
+    putText(image, out_text, Point(15, 40), FONT_HERSHEY_SIMPLEX, 1.3, Scalar(0, 0, 255), 2);
         
     imshow("Image", image);
     waitKey(5000);

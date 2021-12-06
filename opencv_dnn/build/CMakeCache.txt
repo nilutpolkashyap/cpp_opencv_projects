@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a program.
+CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64/lib.exe
+
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
 // else will be ignored.
@@ -183,6 +186,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 OpenCV_CPP_BINARY_DIR:STATIC=F:/github/cpp_opencv_projects/opencv_dnn/build
 
 //Value Computed by CMake
+OpenCV_CPP_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 OpenCV_CPP_SOURCE_DIR:STATIC=F:/github/cpp_opencv_projects/opencv_dnn
 
 //The directory containing a CMake configuration file for OpenCV.
@@ -193,12 +199,14 @@ OpenCV_DIR:PATH=E:/OpenCV
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: CMAKE_AR
+CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=f:/github/cpp_opencv_projects/opencv_dnn/build
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=17
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
 //Path to CMake executable.
@@ -274,6 +282,8 @@ CMAKE_MT-ADVANCED:INTERNAL=1
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
+//noop for ranlib
+CMAKE_RANLIB:INTERNAL=:
 //ADVANCED property for variable: CMAKE_RC_COMPILER
 CMAKE_RC_COMPILER-ADVANCED:INTERNAL=1
 CMAKE_RC_COMPILER_WORKS:INTERNAL=1
@@ -288,7 +298,7 @@ CMAKE_RC_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_FLAGS_RELWITHDEBINFO
 CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=D:/Program Files/CMake/share/cmake-3.17
+CMAKE_ROOT:INTERNAL=D:/Program Files/CMake/share/cmake-3.22
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
