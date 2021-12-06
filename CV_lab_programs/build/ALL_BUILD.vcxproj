@@ -174,9 +174,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{52F3C433-37E8-36FC-A5A3-874BC11DFF82}</Project>
       <Name>image_grayscale_read_write</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_histogram.vcxproj">
+      <Project>{7638CFF2-4320-3E00-89B9-169028253071}</Project>
+      <Name>image_histogram</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_rgb_split.vcxproj">
       <Project>{F0CF8DBB-67F2-3775-A835-9A8A62E136A6}</Project>
       <Name>image_rgb_split</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_smoothing.vcxproj">
+      <Project>{B1935E83-097A-342B-9924-99C0208F6A89}</Project>
+      <Name>image_smoothing</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
