@@ -182,6 +182,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{F0CF8DBB-67F2-3775-A835-9A8A62E136A6}</Project>
       <Name>image_rgb_split</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_roi.vcxproj">
+      <Project>{160BB18F-9256-33D8-B196-FCCE3EDC3E6D}</Project>
+      <Name>image_roi</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_smoothing.vcxproj">
       <Project>{B1935E83-097A-342B-9924-99C0208F6A89}</Project>
       <Name>image_smoothing</Name>

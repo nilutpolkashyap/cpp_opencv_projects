@@ -27,4 +27,5 @@ add_example(image_grayscale_read_write)
 add_example(image_rgb_split)
 add_example(image_histogram)
 add_example(image_smoothing)
+add_example(image_roi)
 #add_example(sampleCode2) and so on
