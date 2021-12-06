@@ -26,6 +26,12 @@
       <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_roi.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_segmentation.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_sharpening.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\image_smoothing.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>

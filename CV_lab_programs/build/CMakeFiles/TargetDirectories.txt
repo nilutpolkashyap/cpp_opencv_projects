@@ -6,5 +6,7 @@ F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_roi.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/discrete_fourier_transform.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_erosion_dilation.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/edge_detection.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_sharpening.dir
+F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/image_segmentation.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ALL_BUILD.dir
 F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/ZERO_CHECK.dir

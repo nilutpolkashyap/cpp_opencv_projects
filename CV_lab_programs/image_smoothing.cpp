@@ -8,7 +8,7 @@ using namespace cv;
 int main(int argc, char **argv)
 {
     Mat image, blurred;
-    image = imread("wood.jpg", cv::IMREAD_COLOR);
+    image = imread("frog.jpg", cv::IMREAD_COLOR);
 
     blur(image, blurred, Size(5,5));
 

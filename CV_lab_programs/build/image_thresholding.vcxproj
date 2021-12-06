@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2FDCF389-A720-312D-80B5-8E53FFAC85E2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>image_thresholding</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">image_thresholding.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">image_thresholding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">image_thresholding.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">image_thresholding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">image_thresholding.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">image_thresholding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">image_thresholding.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">image_thresholding</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\OpenCV\x64\vc16\lib\opencv_gapi451d.lib;E:\OpenCV\x64\vc16\lib\opencv_stitching451d.lib;E:\OpenCV\x64\vc16\lib\opencv_aruco451d.lib;E:\OpenCV\x64\vc16\lib\opencv_bgsegm451d.lib;E:\OpenCV\x64\vc16\lib\opencv_bioinspired451d.lib;E:\OpenCV\x64\vc16\lib\opencv_ccalib451d.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_objdetect451d.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_superres451d.lib;E:\OpenCV\x64\vc16\lib\opencv_dpm451d.lib;E:\OpenCV\x64\vc16\lib\opencv_face451d.lib;E:\OpenCV\x64\vc16\lib\opencv_fuzzy451d.lib;E:\OpenCV\x64\vc16\lib\opencv_hdf451d.lib;E:\OpenCV\x64\vc16\lib\opencv_hfs451d.lib;E:\OpenCV\x64\vc16\lib\opencv_img_hash451d.lib;E:\OpenCV\x64\vc16\lib\opencv_intensity_transform451d.lib;E:\OpenCV\x64\vc16\lib\opencv_line_descriptor451d.lib;E:\OpenCV\x64\vc16\lib\opencv_mcc451d.lib;E:\OpenCV\x64\vc16\lib\opencv_quality451d.lib;E:\OpenCV\x64\vc16\lib\opencv_rapid451d.lib;E:\OpenCV\x64\vc16\lib\opencv_reg451d.lib;E:\OpenCV\x64\vc16\lib\opencv_rgbd451d.lib;E:\OpenCV\x64\vc16\lib\opencv_stereo451d.lib;E:\OpenCV\x64\vc16\lib\opencv_structured_light451d.lib;E:\OpenCV\x64\vc16\lib\opencv_superres451d.lib;E:\OpenCV\x64\vc16\lib\opencv_surface_matching451d.lib;E:\OpenCV\x64\vc16\lib\opencv_tracking451d.lib;E:\OpenCV\x64\vc16\lib\opencv_videostab451d.lib;E:\OpenCV\x64\vc16\lib\opencv_xfeatures2d451d.lib;E:\OpenCV\x64\vc16\lib\opencv_xobjdetect451d.lib;E:\OpenCV\x64\vc16\lib\opencv_xphoto451d.lib;E:\OpenCV\x64\vc16\lib\opencv_shape451d.lib;E:\OpenCV\x64\vc16\lib\opencv_highgui451d.lib;E:\OpenCV\x64\vc16\lib\opencv_datasets451d.lib;E:\OpenCV\x64\vc16\lib\opencv_plot451d.lib;E:\OpenCV\x64\vc16\lib\opencv_text451d.lib;E:\OpenCV\x64\vc16\lib\opencv_ml451d.lib;E:\OpenCV\x64\vc16\lib\opencv_phase_unwrapping451d.lib;E:\OpenCV\x64\vc16\lib\opencv_optflow451d.lib;E:\OpenCV\x64\vc16\lib\opencv_ximgproc451d.lib;E:\OpenCV\x64\vc16\lib\opencv_video451d.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn451d.lib;E:\OpenCV\x64\vc16\lib\opencv_videoio451d.lib;E:\OpenCV\x64\vc16\lib\opencv_imgcodecs451d.lib;E:\OpenCV\x64\vc16\lib\opencv_objdetect451d.lib;E:\OpenCV\x64\vc16\lib\opencv_calib3d451d.lib;E:\OpenCV\x64\vc16\lib\opencv_features2d451d.lib;E:\OpenCV\x64\vc16\lib\opencv_flann451d.lib;E:\OpenCV\x64\vc16\lib\opencv_photo451d.lib;E:\OpenCV\x64\vc16\lib\opencv_imgproc451d.lib;E:\OpenCV\x64\vc16\lib\opencv_core451d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/cpp_opencv_projects/CV_lab_programs/build/Debug/image_thresholding.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/CV_lab_programs/build/Debug/image_thresholding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\OpenCV\x64\vc16\lib\opencv_gapi451.lib;E:\OpenCV\x64\vc16\lib\opencv_stitching451.lib;E:\OpenCV\x64\vc16\lib\opencv_aruco451.lib;E:\OpenCV\x64\vc16\lib\opencv_bgsegm451.lib;E:\OpenCV\x64\vc16\lib\opencv_bioinspired451.lib;E:\OpenCV\x64\vc16\lib\opencv_ccalib451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_dpm451.lib;E:\OpenCV\x64\vc16\lib\opencv_face451.lib;E:\OpenCV\x64\vc16\lib\opencv_fuzzy451.lib;E:\OpenCV\x64\vc16\lib\opencv_hdf451.lib;E:\OpenCV\x64\vc16\lib\opencv_hfs451.lib;E:\OpenCV\x64\vc16\lib\opencv_img_hash451.lib;E:\OpenCV\x64\vc16\lib\opencv_intensity_transform451.lib;E:\OpenCV\x64\vc16\lib\opencv_line_descriptor451.lib;E:\OpenCV\x64\vc16\lib\opencv_mcc451.lib;E:\OpenCV\x64\vc16\lib\opencv_quality451.lib;E:\OpenCV\x64\vc16\lib\opencv_rapid451.lib;E:\OpenCV\x64\vc16\lib\opencv_reg451.lib;E:\OpenCV\x64\vc16\lib\opencv_rgbd451.lib;E:\OpenCV\x64\vc16\lib\opencv_stereo451.lib;E:\OpenCV\x64\vc16\lib\opencv_structured_light451.lib;E:\OpenCV\x64\vc16\lib\opencv_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_surface_matching451.lib;E:\OpenCV\x64\vc16\lib\opencv_tracking451.lib;E:\OpenCV\x64\vc16\lib\opencv_videostab451.lib;E:\OpenCV\x64\vc16\lib\opencv_xfeatures2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_xobjdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_xphoto451.lib;E:\OpenCV\x64\vc16\lib\opencv_shape451.lib;E:\OpenCV\x64\vc16\lib\opencv_highgui451.lib;E:\OpenCV\x64\vc16\lib\opencv_datasets451.lib;E:\OpenCV\x64\vc16\lib\opencv_plot451.lib;E:\OpenCV\x64\vc16\lib\opencv_text451.lib;E:\OpenCV\x64\vc16\lib\opencv_ml451.lib;E:\OpenCV\x64\vc16\lib\opencv_phase_unwrapping451.lib;E:\OpenCV\x64\vc16\lib\opencv_optflow451.lib;E:\OpenCV\x64\vc16\lib\opencv_ximgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_video451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn451.lib;E:\OpenCV\x64\vc16\lib\opencv_videoio451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgcodecs451.lib;E:\OpenCV\x64\vc16\lib\opencv_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_calib3d451.lib;E:\OpenCV\x64\vc16\lib\opencv_features2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_flann451.lib;E:\OpenCV\x64\vc16\lib\opencv_photo451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_core451.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/cpp_opencv_projects/CV_lab_programs/build/Release/image_thresholding.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/CV_lab_programs/build/Release/image_thresholding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\OpenCV\x64\vc16\lib\opencv_gapi451.lib;E:\OpenCV\x64\vc16\lib\opencv_stitching451.lib;E:\OpenCV\x64\vc16\lib\opencv_aruco451.lib;E:\OpenCV\x64\vc16\lib\opencv_bgsegm451.lib;E:\OpenCV\x64\vc16\lib\opencv_bioinspired451.lib;E:\OpenCV\x64\vc16\lib\opencv_ccalib451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_dpm451.lib;E:\OpenCV\x64\vc16\lib\opencv_face451.lib;E:\OpenCV\x64\vc16\lib\opencv_fuzzy451.lib;E:\OpenCV\x64\vc16\lib\opencv_hdf451.lib;E:\OpenCV\x64\vc16\lib\opencv_hfs451.lib;E:\OpenCV\x64\vc16\lib\opencv_img_hash451.lib;E:\OpenCV\x64\vc16\lib\opencv_intensity_transform451.lib;E:\OpenCV\x64\vc16\lib\opencv_line_descriptor451.lib;E:\OpenCV\x64\vc16\lib\opencv_mcc451.lib;E:\OpenCV\x64\vc16\lib\opencv_quality451.lib;E:\OpenCV\x64\vc16\lib\opencv_rapid451.lib;E:\OpenCV\x64\vc16\lib\opencv_reg451.lib;E:\OpenCV\x64\vc16\lib\opencv_rgbd451.lib;E:\OpenCV\x64\vc16\lib\opencv_stereo451.lib;E:\OpenCV\x64\vc16\lib\opencv_structured_light451.lib;E:\OpenCV\x64\vc16\lib\opencv_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_surface_matching451.lib;E:\OpenCV\x64\vc16\lib\opencv_tracking451.lib;E:\OpenCV\x64\vc16\lib\opencv_videostab451.lib;E:\OpenCV\x64\vc16\lib\opencv_xfeatures2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_xobjdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_xphoto451.lib;E:\OpenCV\x64\vc16\lib\opencv_shape451.lib;E:\OpenCV\x64\vc16\lib\opencv_highgui451.lib;E:\OpenCV\x64\vc16\lib\opencv_datasets451.lib;E:\OpenCV\x64\vc16\lib\opencv_plot451.lib;E:\OpenCV\x64\vc16\lib\opencv_text451.lib;E:\OpenCV\x64\vc16\lib\opencv_ml451.lib;E:\OpenCV\x64\vc16\lib\opencv_phase_unwrapping451.lib;E:\OpenCV\x64\vc16\lib\opencv_optflow451.lib;E:\OpenCV\x64\vc16\lib\opencv_ximgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_video451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn451.lib;E:\OpenCV\x64\vc16\lib\opencv_videoio451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgcodecs451.lib;E:\OpenCV\x64\vc16\lib\opencv_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_calib3d451.lib;E:\OpenCV\x64\vc16\lib\opencv_features2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_flann451.lib;E:\OpenCV\x64\vc16\lib\opencv_photo451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_core451.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/cpp_opencv_projects/CV_lab_programs/build/MinSizeRel/image_thresholding.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/CV_lab_programs/build/MinSizeRel/image_thresholding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\OpenCV\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\OpenCV\x64\vc16\lib\opencv_gapi451.lib;E:\OpenCV\x64\vc16\lib\opencv_stitching451.lib;E:\OpenCV\x64\vc16\lib\opencv_aruco451.lib;E:\OpenCV\x64\vc16\lib\opencv_bgsegm451.lib;E:\OpenCV\x64\vc16\lib\opencv_bioinspired451.lib;E:\OpenCV\x64\vc16\lib\opencv_ccalib451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_dpm451.lib;E:\OpenCV\x64\vc16\lib\opencv_face451.lib;E:\OpenCV\x64\vc16\lib\opencv_fuzzy451.lib;E:\OpenCV\x64\vc16\lib\opencv_hdf451.lib;E:\OpenCV\x64\vc16\lib\opencv_hfs451.lib;E:\OpenCV\x64\vc16\lib\opencv_img_hash451.lib;E:\OpenCV\x64\vc16\lib\opencv_intensity_transform451.lib;E:\OpenCV\x64\vc16\lib\opencv_line_descriptor451.lib;E:\OpenCV\x64\vc16\lib\opencv_mcc451.lib;E:\OpenCV\x64\vc16\lib\opencv_quality451.lib;E:\OpenCV\x64\vc16\lib\opencv_rapid451.lib;E:\OpenCV\x64\vc16\lib\opencv_reg451.lib;E:\OpenCV\x64\vc16\lib\opencv_rgbd451.lib;E:\OpenCV\x64\vc16\lib\opencv_stereo451.lib;E:\OpenCV\x64\vc16\lib\opencv_structured_light451.lib;E:\OpenCV\x64\vc16\lib\opencv_superres451.lib;E:\OpenCV\x64\vc16\lib\opencv_surface_matching451.lib;E:\OpenCV\x64\vc16\lib\opencv_tracking451.lib;E:\OpenCV\x64\vc16\lib\opencv_videostab451.lib;E:\OpenCV\x64\vc16\lib\opencv_xfeatures2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_xobjdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_xphoto451.lib;E:\OpenCV\x64\vc16\lib\opencv_shape451.lib;E:\OpenCV\x64\vc16\lib\opencv_highgui451.lib;E:\OpenCV\x64\vc16\lib\opencv_datasets451.lib;E:\OpenCV\x64\vc16\lib\opencv_plot451.lib;E:\OpenCV\x64\vc16\lib\opencv_text451.lib;E:\OpenCV\x64\vc16\lib\opencv_ml451.lib;E:\OpenCV\x64\vc16\lib\opencv_phase_unwrapping451.lib;E:\OpenCV\x64\vc16\lib\opencv_optflow451.lib;E:\OpenCV\x64\vc16\lib\opencv_ximgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_video451.lib;E:\OpenCV\x64\vc16\lib\opencv_dnn451.lib;E:\OpenCV\x64\vc16\lib\opencv_videoio451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgcodecs451.lib;E:\OpenCV\x64\vc16\lib\opencv_objdetect451.lib;E:\OpenCV\x64\vc16\lib\opencv_calib3d451.lib;E:\OpenCV\x64\vc16\lib\opencv_features2d451.lib;E:\OpenCV\x64\vc16\lib\opencv_flann451.lib;E:\OpenCV\x64\vc16\lib\opencv_photo451.lib;E:\OpenCV\x64\vc16\lib\opencv_imgproc451.lib;E:\OpenCV\x64\vc16\lib\opencv_core451.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/github/cpp_opencv_projects/CV_lab_programs/build/RelWithDebInfo/image_thresholding.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/CV_lab_programs/build/RelWithDebInfo/image_thresholding.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\github\cpp_opencv_projects\CV_lab_programs\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/github/cpp_opencv_projects/CV_lab_programs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/CV_lab_programs -BF:/github/cpp_opencv_projects/CV_lab_programs/build --check-stamp-file F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/github/cpp_opencv_projects/CV_lab_programs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/CV_lab_programs -BF:/github/cpp_opencv_projects/CV_lab_programs/build --check-stamp-file F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/github/cpp_opencv_projects/CV_lab_programs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/CV_lab_programs -BF:/github/cpp_opencv_projects/CV_lab_programs/build --check-stamp-file F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/github/cpp_opencv_projects/CV_lab_programs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/CV_lab_programs -BF:/github/cpp_opencv_projects/CV_lab_programs/build --check-stamp-file F:/github/cpp_opencv_projects/CV_lab_programs/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;E:\OpenCV\OpenCVConfig-version.cmake;E:\OpenCV\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVConfig.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-debug.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules-release.cmake;E:\OpenCV\x64\vc16\lib\OpenCVModules.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeCXXCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeRCCompiler.cmake;F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\3.22.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\CV_lab_programs\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\github\cpp_opencv_projects\CV_lab_programs\image_thresholding.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\ZERO_CHECK.vcxproj">
+      <Project>{6A5E6378-E3F6-32B0-9A84-B54D4582735E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

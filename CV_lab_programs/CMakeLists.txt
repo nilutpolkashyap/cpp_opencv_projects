@@ -31,4 +31,6 @@ add_example(image_roi)
 add_example(discrete_fourier_transform)
 add_example(image_erosion_dilation)
 add_example(edge_detection)
+add_example(image_sharpening)
+add_example(image_segmentation)
 #add_example(sampleCode2) and so on

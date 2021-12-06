@@ -198,6 +198,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{160BB18F-9256-33D8-B196-FCCE3EDC3E6D}</Project>
       <Name>image_roi</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_segmentation.vcxproj">
+      <Project>{351D469E-07D0-3229-92BD-B2C902F62CEF}</Project>
+      <Name>image_segmentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_sharpening.vcxproj">
+      <Project>{56995DAD-6E61-3FED-80A3-5031872AD72A}</Project>
+      <Name>image_sharpening</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\CV_lab_programs\build\image_smoothing.vcxproj">
       <Project>{B1935E83-097A-342B-9924-99C0208F6A89}</Project>
       <Name>image_smoothing</Name>
