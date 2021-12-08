@@ -27,7 +27,7 @@ int main(int argc, char** argv)
   
     dilate(image, dill, element, Point(-1, -1), 1);
   
-    imshow("source", image);
+    imshow("source image", image);
     imshow("erosion", erod);
     imshow("dilation", dill);
     waitKey(0);

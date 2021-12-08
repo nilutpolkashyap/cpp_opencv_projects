@@ -9,7 +9,7 @@ int main(int argc, char **argv)
     Mat image, gray_image, bgr[3];
     image = imread("opencv.jpg", cv::IMREAD_COLOR);
 
-    imshow("image", image);
+    imshow("original_image", image);
     waitKey(0);
     destroyWindow("image");
 

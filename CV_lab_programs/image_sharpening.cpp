@@ -21,11 +21,11 @@ int main(){
 
     filter2D(image, output, -1, sharpeningKernel);
 
-    namedWindow("image", WINDOW_AUTOSIZE);
-    namedWindow("sharpe image", WINDOW_AUTOSIZE);
+    // namedWindow("image", WINDOW_AUTOSIZE);
+    // namedWindow("sharpen image", WINDOW_AUTOSIZE);
 
-    imshow("image", image);
-    imshow("sharpe image", output);
+    imshow("original image", image);
+    imshow("sharpen image", output);
     waitKey(0);
     destroyAllWindows();
     
