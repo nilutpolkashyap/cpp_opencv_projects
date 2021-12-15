@@ -9,7 +9,7 @@ Mat img1, img2, output;
 int main(int argc, char **argv)
 {
     img1 = imread("image1.jpg", IMREAD_COLOR);
-    img2 = imread("image2.jpg", IMREAD_COLOR);
+    img2 = imread("image2.png", IMREAD_COLOR);
 
     float alpha, beta;
     cout << "Enter value of Alpha for alpha blending [0.0 - 1.0] : " ;
