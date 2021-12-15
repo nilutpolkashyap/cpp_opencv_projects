@@ -1,0 +1,10 @@
+^F:\GITHUB\CPP_OPENCV_PROJECTS\IMAGE_BLENDING\BUILD\CMAKEFILES\529331285E226D95468D43EED892A9CA\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/image_blending -BF:/github/cpp_opencv_projects/image_blending/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/github/cpp_opencv_projects/image_blending/build/OpenCV_CPP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
