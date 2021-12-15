@@ -18,5 +18,7 @@ int main(int argc, char **argv)
     beta = (1.0 - alpha);
 
     cv:addWeighted(img1, alpha, img2, beta, 0.0, output);
+
+    
     
 }

@@ -24,4 +24,5 @@ ENDMACRO()
 # COMPILE CPP FILES USING THIS LINE
 ######## EDIT THE FILE NAMES ########
 add_example(alpha_bending)
+add_example(image_blending)
 #add_example(sampleCode2) and so on
