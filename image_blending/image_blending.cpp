@@ -19,6 +19,11 @@ int main(int argc, char **argv)
 
     cv:addWeighted(img1, alpha, img2, beta, 0.0, output);
 
-    
+    imshow("Blended Image", output);
+    waitKey(0);
+
+    destroyAllWindows();
+
+    return 0;
     
 }
