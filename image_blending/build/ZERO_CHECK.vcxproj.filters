@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\github\cpp_opencv_projects\image_blending\build\CMakeFiles\529331285e226d95468d43eed892a9ca\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B10ABFDC-B4E8-3E15-AA7A-31B6F7BDE970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
