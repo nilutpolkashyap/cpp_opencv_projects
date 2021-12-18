@@ -5,6 +5,9 @@
       <FullPath>F:\github\cpp_opencv_projects\cpp_opencv_basics\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>F:\github\cpp_opencv_projects\cpp_opencv_basics\build\Release\blob_detector.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>F:\github\cpp_opencv_projects\cpp_opencv_basics\build\Release\image_cropping.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
