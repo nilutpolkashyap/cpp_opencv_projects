@@ -22,11 +22,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0FFE9933-3EFE-3123-B8FC-527A7E50C3FE}</ProjectGuid>
+    <ProjectGuid>{2BFA2A1A-ABD5-3DC1-B7CC-5CFA49440A2A}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
-    <ProjectName>image_resize_interpolation</ProjectName>
+    <ProjectName>blob_detector</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -60,26 +60,26 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\github\cpp_opencv_projects\cpp_opencv_basics\build\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">image_resize_interpolation.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">image_resize_interpolation</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blob_detector.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">blob_detector</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\github\cpp_opencv_projects\cpp_opencv_basics\build\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">image_resize_interpolation.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">image_resize_interpolation</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blob_detector.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">blob_detector</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\github\cpp_opencv_projects\cpp_opencv_basics\build\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">image_resize_interpolation.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">image_resize_interpolation</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blob_detector.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">blob_detector</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\github\cpp_opencv_projects\cpp_opencv_basics\build\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">image_resize_interpolation.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">image_resize_interpolation</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blob_detector.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">blob_detector</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Debug/image_resize_interpolation.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Debug/image_resize_interpolation.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Debug/blob_detector.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Debug/blob_detector.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -164,8 +164,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Release/image_resize_interpolation.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Release/image_resize_interpolation.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Release/blob_detector.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/Release/blob_detector.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -208,8 +208,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/MinSizeRel/image_resize_interpolation.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/MinSizeRel/image_resize_interpolation.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/MinSizeRel/blob_detector.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/MinSizeRel/blob_detector.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -251,8 +251,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/RelWithDebInfo/image_resize_interpolation.lib</ImportLibrary>
-      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/RelWithDebInfo/image_resize_interpolation.pdb</ProgramDataBaseFile>
+      <ImportLibrary>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/RelWithDebInfo/blob_detector.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/github/cpp_opencv_projects/cpp_opencv_basics/build/RelWithDebInfo/blob_detector.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -317,7 +317,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\image_resize_interpolation.cpp" />
+    <ClCompile Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\blob_detector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\ZERO_CHECK.vcxproj">
