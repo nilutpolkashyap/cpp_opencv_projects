@@ -174,6 +174,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{2BFA2A1A-ABD5-3DC1-B7CC-5CFA49440A2A}</Project>
       <Name>blob_detector</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\graphics_example.vcxproj">
+      <Project>{4F9417AE-FE1A-393C-AD3F-45D06F826A94}</Project>
+      <Name>graphics_example</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\github\cpp_opencv_projects\cpp_opencv_basics\build\image_cropping.vcxproj">
       <Project>{E62CA929-A0C2-38F1-A5E0-3B4BE92A66E4}</Project>
       <Name>image_cropping</Name>
