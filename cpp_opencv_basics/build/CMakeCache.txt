@@ -194,6 +194,9 @@ OpenCV_CPP_SOURCE_DIR:STATIC=F:/github/cpp_opencv_projects/cpp_opencv_basics
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=E:/OpenCV
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
