@@ -8,6 +8,5 @@ F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/image_cropping.
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/image_rotation.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/blob_detector.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/graphics_example.dir
-F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/ALL_BUILD.dir
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/ZERO_CHECK.dir

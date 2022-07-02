@@ -11,6 +11,7 @@ SET(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 # MAKE SURE OPENCV IS INSTALLED CORRECTLY
 find_package( OpenCV REQUIRED )
 find_package(CUDA REQUIRED)
+message(STATUS "Found CUDA ${CUDA_VERSION_STRING} at ${CUDA_TOOLKIT_ROOT_DIR}")
 
 set(CUDA_SEPARABLE_COMPILATION ON)
 set(CUDA_PROPAGATE_HOST_FLAGS OFF)
@@ -42,6 +43,16 @@ add_example(blob_detector)
 add_example(graphics_example)
 #add_example(sampleCode2) and so on
 
-cuda_add_executable(
-    pi-cuda
-    src/pi-cuda.cu)
+# cuda_add_executable(
+#     pi-cuda
+#     src/pi-cuda.cu)
+
+add_executable(main main.cpp)
+add_subdirectory(kernels)
+
+add_library(kernels test.cu test.cuh)
+
+target_compile_features(kernels PUBLIC cxx_std_11)
+set_target_properties(kernels
+                       PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+target_link_libraries(kernels)

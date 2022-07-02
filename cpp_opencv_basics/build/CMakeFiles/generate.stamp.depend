@@ -12,7 +12,6 @@ D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacr
 D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/NVIDIA-CUDA.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA.cmake
-D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/select_compute_arch.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
@@ -32,5 +31,3 @@ F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMak
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeCXXCompiler.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeRCCompiler.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeSystem.cmake
-F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/pi-cuda_generated_pi-cuda.cu.obj.cmake.pre-gen
-F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/pi-cuda_generated_pi-cuda.cu.obj.depend
