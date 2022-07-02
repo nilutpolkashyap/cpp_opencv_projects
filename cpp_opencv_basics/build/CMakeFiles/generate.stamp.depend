@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCUDAInformation.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
@@ -9,13 +9,16 @@ D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
-D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-C.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/NVIDIA-CUDA.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/select_compute_arch.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
-D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-C.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-NVIDIA-CUDA.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
 D:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
 E:/OpenCV/OpenCVConfig-version.cmake
@@ -25,7 +28,9 @@ E:/OpenCV/x64/vc16/lib/OpenCVModules-debug.cmake
 E:/OpenCV/x64/vc16/lib/OpenCVModules-release.cmake
 E:/OpenCV/x64/vc16/lib/OpenCVModules.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/CMakeLists.txt
-F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeCCompiler.cmake
+F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeCUDACompiler.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeCXXCompiler.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeRCCompiler.cmake
 F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/3.22.0-rc3/CMakeSystem.cmake
+F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/pi-cuda_generated_pi-cuda.cu.obj.cmake.pre-gen
+F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/pi-cuda_generated_pi-cuda.cu.obj.depend

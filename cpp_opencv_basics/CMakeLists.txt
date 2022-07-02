@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 
 # SPECIFY YOUR PROJECT NAME
-PROJECT(OpenCV_CPP)
+PROJECT(OpenCV_CPP LANGUAGES CXX CUDA)
 
 # ENABLE C++11
 SET(CMAKE_CXX_STANDARD 17)
@@ -10,6 +10,13 @@ SET(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 # MAKE SURE OPENCV IS INSTALLED CORRECTLY
 find_package( OpenCV REQUIRED )
+find_package(CUDA REQUIRED)
+
+set(CUDA_SEPARABLE_COMPILATION ON)
+set(CUDA_PROPAGATE_HOST_FLAGS OFF)
+set(CUDA_HOST_COMPILER clang++)
+
+set (CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} --gpu-architecture sm_75 -std=c++11)
 
 # INCLUDE OPENCV DIRECTORIES
 include_directories( ${OpenCV_INCLUDE_DIRS})
@@ -34,3 +41,7 @@ add_example(image_rotation)
 add_example(blob_detector)
 add_example(graphics_example)
 #add_example(sampleCode2) and so on
+
+cuda_add_executable(
+    pi-cuda
+    src/pi-cuda.cu)

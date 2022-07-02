@@ -1,0 +1,36 @@
+^F:\GITHUB\CPP_OPENCV_PROJECTS\CPP_OPENCV_BASICS\SRC\PI-CUDA.CU
+setlocal
+cd F:\github\cpp_opencv_projects\cpp_opencv_basics\build\CMakeFiles\pi-cuda.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.28.29333/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/Release/pi-cuda_generated_pi-cuda.cu.obj -D generated_cubin_file:STRING=F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/Release/pi-cuda_generated_pi-cuda.cu.obj.cubin.txt -P F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/pi-cuda_generated_pi-cuda.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\GITHUB\CPP_OPENCV_PROJECTS\CPP_OPENCV_BASICS\BUILD\CMAKEFILES\6BBF065CF0605631456E05F6100F0416\PI-CUDA_INTERMEDIATE_LINK.OBJ.RULE
+setlocal
+"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -m64 -ccbin clang++ -dlink F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/src/Release/pi-cuda_generated_pi-cuda.cu.obj -o F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/pi-cuda.dir/Release/pi-cuda_intermediate_link.obj -Xcompiler /MD
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\GITHUB\CPP_OPENCV_PROJECTS\CPP_OPENCV_BASICS\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/github/cpp_opencv_projects/cpp_opencv_basics -BF:/github/cpp_opencv_projects/cpp_opencv_basics/build --check-stamp-file F:/github/cpp_opencv_projects/cpp_opencv_basics/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
