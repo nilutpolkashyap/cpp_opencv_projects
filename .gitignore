@@ -4,3 +4,4 @@
 *.pb
 *.prototxt
 */build/*
+cpp_opencv_basics/build/*

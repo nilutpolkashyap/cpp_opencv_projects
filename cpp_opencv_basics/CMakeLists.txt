@@ -47,12 +47,12 @@ add_example(graphics_example)
 #     pi-cuda
 #     src/pi-cuda.cu)
 
-add_executable(main main.cpp)
-add_subdirectory(kernels)
-
-add_library(kernels test.cu test.cuh)
-
-target_compile_features(kernels PUBLIC cxx_std_11)
-set_target_properties(kernels
-                       PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
-target_link_libraries(kernels)
+# target_compile_features(picuda PUBLIC cxx_std_11)
+ 
+# set_target_properties(picuda PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+ 
+add_executable(picuda_test pi-cuda.cu)
+ 
+set_property(TARGET picuda_test 
+             PROPERTY CUDA_SEPARABLE_COMPILATION ON)
+target_link_libraries(picuda_test PRIVAT)
